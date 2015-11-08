@@ -287,3 +287,70 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.resume {
+  #myNameHeader {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0rem;
+    line-height: 0.2;
+    margin: 1rm 0 2rem;
+  }
+  #myProfession {
+    color: #504949;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0rem;
+    line-height: 1;    
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0rem;
+    line-height: 1;
+    margin: 1rm 0 2rem;
+  }
+  h2 {
+    color: #878787;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: left;
+    line-height: 0.5;
+    padding: 20px 0px 0px 0px;
+  }
+
+  h4 {
+    font-family: "Arial Black";
+    margin: 0 0;
+  }
+
+  dd {
+    border-left: 1px solid #dfdfdf;
+    margin: 0 0 0 100px;
+    padding: 0 0 0 9px;
+  }
+
+  dt {
+    position: relative;
+    right: 10px;
+    top: 25px;
+    font-size: 14px;
+    text-transform: none;
+    width: 100px;
+    text-align: right;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+}
+
+.grey-sheet {
+  background-color: #F6F6F6;
+  box-shadow: 0 0 0 0,0 6px 2px rgba(0,0,0,0.7);
+  border-radius: 0px;
+  padding: 10px 80px;
+}
